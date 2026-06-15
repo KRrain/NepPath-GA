@@ -1,0 +1,8 @@
+This file summarizes the changes made to the codebase.
+
+- In `cogs/permissions/`, I fixed incorrect type hints for `discord.Interaction` and `discord.Role` in `approve_role.py`, `disable_all_users.py`, `disable_role.py`, `enable_users.py`, and `status.py`. I also added missing `import discord` statements.
+- In `vtcs/associated.py`, I removed a duplicate `remove_role` command.
+- In `vtcs/status.py`, I fixed the `STAFF_ROLE_ID` to use the one from `config.py` and made the command global.
+- In `vtcs/upcoming.py`, I restored the `setup` function and changed the parser to `lxml`.
+- In `bot.py`, I refactored the `TicketDropdown.callback` method to handle all cases and be more robust, and restored the `upcoming` command setup.
+- In `bot.py`, I added a "Quick Edit" context menu command to allow staff to edit bot message embeds, and updated the `AcceptModal` to include a custom message field.
