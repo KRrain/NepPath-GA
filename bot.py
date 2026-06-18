@@ -25,6 +25,7 @@ from vtcs.upcoming import setup as setup_upcoming
 from vtcs.help import setup as setup_help_command
 from vtcs.server_lookup import setup as setup_server_lookup
 from vtcs.Partnership import setup as setup_partnership, PartnershipView
+from vtcs.license import setup as setup_license, LicenseView
 from rdt.reminder import setup_reminder
 from rdt.remind_config import setup_remind_config
 from cogs.birthday import BirthdayView
@@ -62,6 +63,7 @@ setup_upcoming(bot)
 setup_help_command(bot)
 setup_server_lookup(bot)
 setup_partnership(bot)
+setup_license(bot)
 setup_ticket(bot)
 setup_role_req(bot)
 
@@ -72,7 +74,7 @@ setup_remind_config(bot, bot.tree)
 @app_commands.command(name="fix-all", description="Check registration of all commands.")
 async def fix_all(interaction: discord.Interaction):
     tree = interaction.client.tree
-    commands_to_check = ["ping", "assign-role", "remove-role", "state", "starboard", "my_vtc", "members", "upcoming"]
+    commands_to_check = ["ping", "assign-role", "remove-role", "state", "starboard", "my_vtc", "members", "upcoming", "license"]
     status_lines = []
     for cmd_name in commands_to_check:
         found = any(cmd.name == cmd_name for cmd in tree.get_commands())
@@ -202,6 +204,7 @@ async def bot_details(ctx):
         "`/birthday-setup` - Initialize birthday registration\n"
         "`/upcoming` - Check events\n"
         "`/my_vtc` - Show VTC info\n"
+        "`/license` - View driver profile card\n"
         "`/members` - List VTC members\n"
         "`/assign-role` - Assign role to user\n"
         "`/remove-role` - Remove role from user\n"
@@ -236,6 +239,7 @@ async def bot_details(ctx):
         "│   ├── help.py\n"
         "│   ├── marked.py\n"
         "│   ├── members.py\n"
+        "│   ├── license.py\n"
         "│   ├── removed.py\n"
         "│   ├── server_lookup.py\n"
         "│   ├── starboard.py\n"
@@ -328,6 +332,7 @@ async def on_ready():
     bot.add_view(RoleRequestView())
     bot.add_view(BirthdayView())
     bot.add_view(RoleRequestAssignView())
+    bot.add_view(LicenseView())
 
     if hasattr(config, "GUILD_ID") and config.GUILD_ID != 0:
         guild = discord.Object(id=config.GUILD_ID)

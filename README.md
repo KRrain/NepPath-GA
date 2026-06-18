@@ -34,7 +34,7 @@ We are continuously looking to expand NepPath's capabilities. Future updates wil
 2. **Config**: Update `config.py` with your server's Role IDs and Channel IDs.
 3. **Dependencies**:
    ```bash
-   pip install discord.py yt-dlp PyNaCl aiohttp python-dotenv
+   pip install discord.py yt-dlp PyNaCl aiohttp python-dotenv Pillow
    ```
 4. **FFmpeg**: Ensure FFmpeg is installed and added to your system's PATH for Music/Sound features.
 
