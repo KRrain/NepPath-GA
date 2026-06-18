@@ -15,10 +15,7 @@ def setup(bot):
 
 # Professional random banners for the license intro
 LICENSE_BANNERS = [
-    "https://i.imgur.com/5u9Fv9u.png",
-    "https://i.imgur.com/9lQ6f8E.png",
-    "https://i.imgur.com/3Z6S7nO.png",
-    "https://i.imgur.com/BFGlNGY.png"
+    "https://i.imgur.com/j0jmKxk.png"
 ]
 
 # Official background for the generated license
