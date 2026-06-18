@@ -238,7 +238,7 @@ async def license_command(interaction: discord.Interaction):
             "• Your TruckersMP Name\n"
             "• Your NepPath VTC Rank\n"
             "• Your TruckersMP Join Date\n"
-            "• Your Unique TruckersMP Registration ID"
+            "• Your Unique License Number"
         ),
         color=config.EMBED_COLOR
     )
