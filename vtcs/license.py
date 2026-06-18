@@ -46,12 +46,16 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
         await interaction.response.defer(ephemeral=True)
         member = interaction.user
 
-        # Extract TMP ID from link
-        match = re.search(r"user/(\d+)", self.tmp_profile_link.value)
-        if not match:
-            return await interaction.followup.send("❌ Invalid TruckersMP Link. Please provide a link like `https://truckersmp.com/user/12345`.", ephemeral=True)
-        
-        tmp_id = match.group(1)
+        # Extract TMP ID from link or raw ID input
+        input_val = self.tmp_profile_link.value.strip()
+        match = re.search(r"user/(\d+)", input_val)
+        if match:
+            tmp_id = match.group(1)
+        elif input_val.isdigit():
+            tmp_id = input_val
+        else:
+            return await interaction.followup.send("❌ Invalid input. Please provide a TruckersMP Profile Link or numeric ID.", ephemeral=True)
+            
         vtc_rank_display = "DRIVER"
         license_display_id = tmp_id
         avatar_image_link_value = self.avatar_image_link.value.strip()
@@ -60,8 +64,13 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
         tmp_join_date_str = "UNKNOWN"
         tmp_join_num = ""
 
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
-        async with aiohttp.ClientSession(headers=headers) as session:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "application/json, text/html",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://truckersmp.com/"
+        }
+        async with aiohttp.ClientSession(headers=headers, timeout=aiohttp.ClientTimeout(total=15)) as session:
             try:
                 # Tier 1: Attempt to fetch via Official API
                 async with session.get(f"https://api.truckersmp.com/v2/player/{tmp_id}") as resp:
@@ -79,11 +88,15 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
                                 dt_obj = datetime.strptime(join_raw, "%Y-%m-%d %H:%M:%S")
                                 tmp_join_date_str = dt_obj.strftime("%d/%m/%Y")
                                 tmp_join_num = dt_obj.strftime("%d%m%Y")
+                    elif resp.status in (403, 429):
+                        print(f"[License] API blocked by TruckersMP (Status: {resp.status}) for ID {tmp_id}")
 
                 # Tier 2: Fallback to HTML Scraping if API fails or name is missing
                 if not tmp_player_name or tmp_join_date_str == "UNKNOWN":
                     async with session.get(f"https://truckersmp.com/user/{tmp_id}") as html_resp:
-                        if html_resp.status == 200:
+                        if html_resp.status != 200:
+                            print(f"[License] Web scraping failed (Status: {html_resp.status}) for ID {tmp_id}")
+                        else:
                             html_content = await html_resp.text()
                             
                             # Member since (for License No)
@@ -131,16 +144,21 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
                                     tmp_join_date_str = dt_obj.strftime("%d/%m/%Y")
                                 except:
                                     pass
+
             except Exception as e:
                 print(f"⚠️ Error during TMP data extraction: {e}")
 
             # Clean rank from emojis/prefixes like "👑 | Founder"
-            if "|" in vtc_rank_display:
+            if vtc_rank_display and "|" in vtc_rank_display:
                 vtc_rank_display = vtc_rank_display.split("|")[-1].strip()
 
             # Validate that we actually found a TMP name
             if not tmp_player_name:
-                return await interaction.followup.send("❌ Could not retrieve your TruckersMP username. This is often caused by temporary blocks on the TruckersMP website. Please check your link or try again in a few minutes.", ephemeral=True)
+                return await interaction.followup.send(
+                    "❌ Could not retrieve your TruckersMP username.\n"
+                    "This is often caused by Cloud Hosting IPs (Zeabur) being blocked by TruckersMP/Cloudflare. Please try providing just your **Numeric ID** or wait a few minutes.", 
+                    ephemeral=True
+                )
 
             # Determine Avatar
             avatar_url = avatar_image_link_value if avatar_image_link_value else str(member.display_avatar.url)
