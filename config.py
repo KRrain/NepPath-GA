@@ -70,10 +70,10 @@ BIRTHDAY_BANNER_URL = "https://cdn.discordapp.com/attachments/139581148659685789
 
 # ================== FILES ==================
 DATA_FILE = Path("./data/data.json")
-TICKET_RECORD_FILE = Path("/data/tickets.json")
-BOOKING_JSON_FILE = "/data/bookings.json"
-STARBOARD_CONFIG_FILE = Path("/data/starboard_config.json")
-LEADERBOARD_FILE = Path("/data/leaderboard.json")
+TICKET_RECORD_FILE = Path("./data/tickets.json")
+BOOKING_JSON_FILE = "./data/bookings.json"
+STARBOARD_CONFIG_FILE = Path("./data/starboard_config.json")
+LEADERBOARD_FILE = Path("./data/leaderboard.json")
 BIRTHDAY_FILE = Path("./data/birthdays.json")
 
 # ================== URLS ==================
