@@ -26,6 +26,7 @@ from vtcs.help import setup as setup_help_command
 from vtcs.server_lookup import setup as setup_server_lookup
 from vtcs.Partnership import setup as setup_partnership, PartnershipView
 from vtcs.license import setup as setup_license, LicenseView
+from vtcs.traffic import setup as setup_traffic
 from rdt.reminder import setup_reminder
 from rdt.remind_config import setup_remind_config
 from cogs.birthday import BirthdayView
@@ -64,6 +65,7 @@ setup_help_command(bot)
 setup_server_lookup(bot)
 setup_partnership(bot)
 setup_license(bot)
+setup_traffic(bot)
 setup_ticket(bot)
 setup_role_req(bot)
 
