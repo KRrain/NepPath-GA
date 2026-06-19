@@ -127,7 +127,7 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
         draw.ellipse([avatar_position[0]-2, avatar_position[1]-2, avatar_position[0]+avatar.width+2, avatar_position[1]+avatar.height+2], outline=accent_rgb, width=4)
 
         # Load Fonts
-        f_header = load_font(52, True)
+        f_header = load_font(300, True)
         f_title = load_font(50, True)
         f_sub = load_font(42)
         f_label = load_font(28, True)
