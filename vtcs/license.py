@@ -20,10 +20,15 @@ LICENSE_BANNERS = [
 GENERATED_LICENSE_BACKGROUND_URL = "https://i.imgur.com/n8AymYi.png"
 
 def load_font(size, bold=False):
+    """Load LiberationSans font bundled with the project (works on all platforms incl. Zeabur)."""
     try:
-        return ImageFont.truetype("arialbd.ttf" if bold else "arial.ttf", size)
-    except:
-        return ImageFont.load_default()
+        font_path = "fonts/LiberationSans-Bold.ttf" if bold else "fonts/LiberationSans-Regular.ttf"
+        return ImageFont.truetype(font_path, size)
+    except Exception:
+        try:
+            return ImageFont.truetype("arialbd.ttf" if bold else "arial.ttf", size)
+        except:
+            return ImageFont.load_default()
 
 # --- New Modal for License Details Input ---
 class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
