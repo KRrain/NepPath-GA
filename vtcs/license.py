@@ -127,27 +127,27 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
         draw.ellipse([avatar_position[0]-2, avatar_position[1]-2, avatar_position[0]+avatar.width+2, avatar_position[1]+avatar.height+2], outline=accent_rgb, width=4)
 
         # Load Fonts
-        f_header = load_font(48, True)
-        f_title = load_font(45, True)
-        f_sub = load_font(35)
-        f_label = load_font(22, True)
+        f_header = load_font(52, True)
+        f_title = load_font(50, True)
+        f_sub = load_font(42)
+        f_label = load_font(28, True)
 
         # Render Text
         W, H = img.size
         text_x = (350 + W) // 2
-        draw.text((W // 2, 40), "NEPPATH DRIVER LICENSE", fill=accent_rgb, font=f_header, anchor="mt")
+        draw.text((W // 2, 35), "NEPPATH DRIVER LICENSE", fill=accent_rgb, font=f_header, anchor="mt")
         
         display_name = tmp_player_name.upper()
-        title_font = f_title if len(display_name) <= 15 else load_font(35 if len(display_name) <= 20 else 30, True)
+        title_font = f_title if len(display_name) <= 15 else load_font(38 if len(display_name) <= 20 else 32, True)
         draw.text((text_x, 120), "NAME", fill=accent_rgb, font=f_label, anchor="mt")
-        draw.text((text_x, 150), display_name, fill=(60, 60, 60), font=title_font, anchor="mt")
+        draw.text((text_x, 155), display_name, fill=(60, 60, 60), font=title_font, anchor="mt")
         
-        draw.text((text_x, 220), "VTC RANK", fill=accent_rgb, font=f_label, anchor="mt")
-        draw.text((text_x, 250), vtc_rank_display, fill=(60, 60, 60), font=f_sub, anchor="mt")
-        draw.text((text_x, 320), "VTC JOINED", fill=accent_rgb, font=f_label, anchor="mt")
-        draw.text((text_x, 350), vtc_joined_str.upper(), fill=(60, 60, 60), font=f_sub, anchor="mt")
-        draw.text((text_x, 420), "LICENSE NO", fill=accent_rgb, font=f_label, anchor="mt")
-        draw.text((text_x, 450), license_no, fill=(255, 255, 255), font=f_sub, anchor="mt")
+        draw.text((text_x, 235), "VTC RANK", fill=accent_rgb, font=f_label, anchor="mt")
+        draw.text((text_x, 275), vtc_rank_display, fill=(60, 60, 60), font=f_sub, anchor="mt")
+        draw.text((text_x, 355), "VTC JOINED", fill=accent_rgb, font=f_label, anchor="mt")
+        draw.text((text_x, 395), vtc_joined_str.upper(), fill=(60, 60, 60), font=f_sub, anchor="mt")
+        draw.text((text_x, 475), "LICENSE NO", fill=accent_rgb, font=f_label, anchor="mt")
+        draw.text((text_x, 515), license_no, fill=(255, 255, 255), font=f_sub, anchor="mt")
 
         buf = io.BytesIO()
         img.save(buf, format='PNG')
