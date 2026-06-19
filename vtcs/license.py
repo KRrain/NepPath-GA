@@ -145,9 +145,9 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
         draw.text((text_x, 235), "VTC RANK", fill=accent_rgb, font=f_label, anchor="mt")
         draw.text((text_x, 275), vtc_rank_display, fill=(60, 60, 60), font=f_sub, anchor="mt")
         draw.text((text_x, 355), "VTC JOINED", fill=accent_rgb, font=f_label, anchor="mt")
-        draw.text((text_x, 395), vtc_joined_str.upper(), fill=(60, 60, 60), font=f_sub, anchor="mt")
-        draw.text((text_x, 475), "LICENSE NO", fill=accent_rgb, font=f_label, anchor="mt")
-        draw.text((text_x, 515), license_no, fill=(255, 255, 255), font=f_sub, anchor="mt")
+        draw.text((text_x, 350), vtc_joined_str.upper(), fill=(60, 60, 60), font=f_sub, anchor="mt")
+        draw.text((text_x, 420), "LICENSE NO", fill=accent_rgb, font=f_label, anchor="mt")
+        draw.text((text_x, 450), license_no, fill=(255, 255, 255), font=f_sub, anchor="mt")
 
         buf = io.BytesIO()
         img.save(buf, format='PNG')
