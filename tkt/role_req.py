@@ -334,8 +334,8 @@ def setup(bot: commands.Bot):
             embed.set_image(url=config.ROLE_REQUEST_FORM_URL)
         
         target_channel = interaction.channel
-        if hasattr(config, "UPDATE_ROLES_CHANNEL_ID") and config.UPDATE_ROLES_CHANNEL_ID:
-            c = interaction.guild.get_channel(config.UPDATE_ROLES_CHANNEL_ID)
+        if hasattr(config, "REQUEST_ROLE_EMBED") and config.REQUEST_ROLE_EMBED:
+            c = interaction.guild.get_channel(config.REQUEST_ROLE_EMBED)
             if c:
                 target_channel = c
 
