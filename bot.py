@@ -27,8 +27,10 @@ from vtcs.server_lookup import setup as setup_server_lookup
 from vtcs.Partnership import setup as setup_partnership, PartnershipView
 from vtcs.license import setup as setup_license, LicenseView
 from vtcs.traffic import setup as setup_traffic
+from vtcs.driver_id import setup as setup_driver_id, DriverIDView
 from rdt.reminder import setup_reminder
 from rdt.remind_config import setup_remind_config
+from rdt.count import setup_count
 from cogs.birthday import BirthdayView
 from tkt.ticket import setup as setup_ticket, register_views as register_ticket_views
 from tkt.role_req import setup as setup_role_req, RoleRequestView, RoleRequestAssignView
@@ -66,11 +68,13 @@ setup_server_lookup(bot)
 setup_partnership(bot)
 setup_license(bot)
 setup_traffic(bot)
+setup_driver_id(bot)
 setup_ticket(bot)
 setup_role_req(bot)
 
 reminder_loop = setup_reminder(bot, bot.tree)
 setup_remind_config(bot, bot.tree)
+setup_count(bot)
 
 # /fix-all command: checks registration of key commands
 @app_commands.command(name="fix-all", description="Check registration of all commands.")
@@ -335,6 +339,7 @@ async def on_ready():
     bot.add_view(BirthdayView())
     bot.add_view(RoleRequestAssignView())
     bot.add_view(LicenseView())
+    bot.add_view(DriverIDView())
 
     if hasattr(config, "GUILD_ID") and config.GUILD_ID != 0:
         guild = discord.Object(id=config.GUILD_ID)
