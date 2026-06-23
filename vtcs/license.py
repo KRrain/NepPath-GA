@@ -17,7 +17,7 @@ LICENSE_BANNERS = [
 ]
 
 # Official background for the generated license
-GENERATED_LICENSE_BACKGROUND_URL = "https://i.imgur.com/n8AymYi.png"
+GENERATED_LICENSE_BACKGROUND_URL = "https://i.imgur.com/GjtL73w.png"
 
 def load_font(size, bold=False):
     import os
@@ -81,10 +81,9 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
     )
     vtc_joined = discord.ui.TextInput(
         label="VTC Joined (DD/MM/YYYY)",
-        placeholder="e.g., 15/01/2024",
+        placeholder="e.g., 15/01/2024 or 12022025 or 120225",
         required=True,
-        max_length=10,
-        min_length=10
+        max_length=10
     )
     avatar_image_link = discord.ui.TextInput(
         label="Custom Avatar Image Link (Optional)",
@@ -99,18 +98,27 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
 
         tmp_player_name = self.tmp_username.value.strip()
         vtc_rank_display = self.vtc_role.value.strip().upper()
-        vtc_joined_str = self.vtc_joined.value.strip()
+        vtc_joined_raw = self.vtc_joined.value.strip()
         avatar_image_link_value = self.avatar_image_link.value.strip()
 
         # Validate TMP Username
         if not tmp_player_name:
             return await interaction.followup.send("❌ TMP Username is required.", ephemeral=True)
 
+        # Auto-format date to DD/MM/YYYY
+        vtc_joined_str = vtc_joined_raw
+        if len(vtc_joined_raw) == 8 and vtc_joined_raw.isdigit():
+            # DDMMYYYY -> DD/MM/YYYY
+            vtc_joined_str = f"{vtc_joined_raw[0:2]}/{vtc_joined_raw[2:4]}/{vtc_joined_raw[4:8]}"
+        elif len(vtc_joined_raw) == 6 and vtc_joined_raw.isdigit():
+            # DDMMYY -> DD/MM/20YY
+            vtc_joined_str = f"{vtc_joined_raw[0:2]}/{vtc_joined_raw[2:4]}/20{vtc_joined_raw[4:6]}"
+
         # Validate VTC Joined date format
         try:
             datetime.strptime(vtc_joined_str, "%d/%m/%Y")
         except ValueError:
-            return await interaction.followup.send("❌ Invalid date format. Please use DD/MM/YYYY (e.g., 15/01/2024).", ephemeral=True)
+            return await interaction.followup.send("❌ Invalid date format. Please use DD/MM/YYYY (e.g., 15/01/2024 or 12022025 or 120225).", ephemeral=True)
 
         # Determine Avatar
         avatar_url = avatar_image_link_value if avatar_image_link_value else str(member.display_avatar.url)
