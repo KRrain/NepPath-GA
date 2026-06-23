@@ -202,6 +202,25 @@ class LicenseDetailsModal(discord.ui.Modal, title="Enter License Details"):
         embed.set_footer(text="NepPath | Virtual Trucking Excellence", icon_url=config.AVATAR_URL)
         await interaction.followup.send(embed=embed, file=file, ephemeral=True)
 
+        # Send log embed to the license log channel
+        log_channel = interaction.client.get_channel(config.LICENSE_LOG_CHANNEL_ID)
+        if log_channel:
+            log_embed = discord.Embed(
+                title="📜 License Generated",
+                description=(
+                    f"**User:** {member.mention} (`{member.id}`)\n"
+                    f"**TMP Username:** {tmp_player_name}\n"
+                    f"**VTC Role:** {vtc_rank_display}\n"
+                    f"**VTC Joined:** {vtc_joined_str}\n"
+                    f"**License No:** {license_no}"
+                ),
+                color=config.EMBED_COLOR,
+                timestamp=datetime.now()
+            )
+            log_embed.set_thumbnail(url=avatar_url)
+            log_embed.set_footer(text="NepPath | License Log", icon_url=config.AVATAR_URL)
+            await log_channel.send(embed=log_embed)
+
 class LicenseView(discord.ui.View):
     def __init__(self):
         super().__init__(timeout=None)
