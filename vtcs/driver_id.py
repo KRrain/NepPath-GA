@@ -11,8 +11,50 @@ DRIVER_ID_BANNER = "https://i.imgur.com/6Fnov98.png"
 GENERATED_ID_BACKGROUND_URL = "https://i.imgur.com/n8AymYi.png"
 
 def load_font(size, bold=False):
+    import os
+    
+    font_paths = [
+        "arialbd.ttf" if bold else "arial.ttf",
+        "Arialbd.ttf" if bold else "Arial.ttf",
+        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
+    ]
+    
+    for fp in font_paths:
+        try:
+            if os.path.exists(fp) or os.path.isfile(fp):
+                return ImageFont.truetype(fp, size)
+        except:
+            pass
+    
+    # Try loading without checking existence (works for system fonts)
+    for fp in font_paths:
+        try:
+            return ImageFont.truetype(fp, size)
+        except:
+            pass
+    
+    # Download DejaVu font as ultimate fallback
+    import urllib.request
+    font_url = "https://github.com/dejavu-fonts/dejavu-fonts/raw/master/ttf/DejaVuSans.ttf"
+    bold_font_url = "https://github.com/dejavu-fonts/dejavu-fonts/raw/master/ttf/DejaVuSans-Bold.ttf"
+    local_path = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
+    
     try:
-        return ImageFont.truetype("arialbd.ttf" if bold else "arial.ttf", size)
+        if not os.path.exists(local_path):
+            url = bold_font_url if bold else font_url
+            urllib.request.urlretrieve(url, local_path)
+        return ImageFont.truetype(local_path, size)
+    except:
+        pass
+    
+    # Absolute last resort
+    try:
+        return ImageFont.load_default(size=size)
     except:
         return ImageFont.load_default()
 
