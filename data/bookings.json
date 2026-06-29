@@ -11,5 +11,17 @@
             "Slot 4": null,
             "Slot 5": null
         }
+    },
+    "1475130144556318760": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - EuroAcres",
+        "color": 16734752,
+        "image": "https://i.imgur.com/B7Qvvil.jpeg",
+        "slots": {
+            "Slot 19": "KERALA ROADRUNNERS",
+            "Slot 20": "HG Logistics",
+            "Slot 21": null,
+            "Slot 22": null
+        }
     }
 }
