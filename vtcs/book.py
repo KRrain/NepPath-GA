@@ -195,10 +195,17 @@ class BookSlotView(discord.ui.View):
         if not data:
             return await interaction.response.send_message("❌ Invalid booking message.", ephemeral=True)
         if not any(v is None for v in data["slots"].values()):
+            try:
+                await interaction.response.send_message("❌ No available slots.", ephemeral=True)
+            except discord.errors.HTTPException:
+                await interaction.followup.send("❌ No available slots.", ephemeral=True)
             button.disabled = True
             await interaction.message.edit(view=BookSlotView(message_id=str(interaction.message.id)))
-            return await interaction.response.send_message("❌ No available slots.", ephemeral=True)
-        await interaction.response.send_modal(SlotBookingModal(str(interaction.message.id)))
+            return
+        try:
+            await interaction.response.send_modal(SlotBookingModal(str(interaction.message.id)))
+        except discord.errors.HTTPException:
+            await interaction.followup.send("❌ Could not open booking modal. Please try again.", ephemeral=True)
 
 # ---------------- Approve/Deny/Remove Approval ----------------
 class ApproveDenyView(discord.ui.View):

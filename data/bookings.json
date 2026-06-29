@@ -1,18 +1,1013 @@
 {
-    "1520976103802409052": {
-        "channel_id": 1395811739274317976,
-        "title": "asdasdasd",
+    "1460304779870732341": {
+        "channel_id": 1454147490797453402,
+        "title": "\ud83d\udc41\ufe0f  STEIN BRUCH",
         "color": 16734752,
-        "image": "",
+        "image": "https://i.imgur.com/PCVtHG4.jpeg",
+        "slots": {
+            "Slot 1": "Nexus Transport [ PARTNER ]",
+            "Slot 2": "Himalayan Logistic [ Partner ]",
+            "Slot 3": "TAMILNADU LOGISTICS",
+            "Slot 4": "TAMILNADU LOGISTICS",
+            "Slot 5": "Aura",
+            "Slot 6": "Thurigen Club co",
+            "Slot 7": "Legacy Transport",
+            "Slot 8": "KERALA ROADRUNNERS",
+            "Slot 9": "Lirio Logistics",
+            "Slot 10": null,
+            "Slot 11": "INDIAN CARRIERS",
+            "Slot 12": "KOREA CULE",
+            "Slot 13": "Shakti Logistics",
+            "Slot 14": "HG Logistics",
+            "Slot 15": null,
+            "Slot 16": "Transports Horizon",
+            "Slot 17": null
+        }
+    },
+    "1470628064114245634": {
+        "channel_id": 1467915231761268757,
+        "title": "\ud835\udc13\ud835\udc2b\ud835\udc1a\ud835\udc1d\ud835\udc1e\ud835\udc1a\ud835\udc2e\ud835\udc31",
+        "color": 16734752,
+        "image": "https://i.imgur.com/fpLJTlY.png",
+        "slots": {
+            "Slot 1": "KERALA LOGISTICS",
+            "Slot 2": "KERALA ROADRUNNERS",
+            "Slot 3": "Shakti Logistics"
+        }
+    },
+    "1470628457275723979": {
+        "channel_id": 1467915231761268757,
+        "title": "Trameri",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Hio2MFx.png",
+        "slots": {
+            "Slot 4": null,
+            "Slot 5": "Ouka Logistics",
+            "Slot 6": "Ethereal Transport",
+            "Slot 7": "Pink Ribbon VTC"
+        }
+    },
+    "1470628742215762060": {
+        "channel_id": 1467915231761268757,
+        "title": "Service Station",
+        "color": 16734752,
+        "image": "https://i.imgur.com/SSVvdWV.png",
+        "slots": {
+            "Slot 8": "Transports Horizon",
+            "Slot 9": "Swift Team"
+        }
+    },
+    "1470628983568728087": {
+        "channel_id": 1467915231761268757,
+        "title": "Recruitment",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Bf3WgMc.png",
         "slots": {
             "Slot 1": null,
             "Slot 2": null,
             "Slot 3": null,
             "Slot 4": null,
-            "Slot 5": null
+            "Slot 5": null,
+            "Slot 6": null,
+            "Slot 7": null,
+            "Slot 8": null,
+            "Slot 9": null,
+            "Slot 10": null
         }
     },
-    "1475130144556318760": {
+    "1470629265493069846": {
+        "channel_id": 1467915231761268757,
+        "title": "Recruitment",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Bf3WgMc.png",
+        "slots": {
+            "Slot 10": "Aura"
+        }
+    },
+    "1470629579755622634": {
+        "channel_id": 1467915231761268757,
+        "title": "Kathode",
+        "color": 16734752,
+        "image": "https://i.imgur.com/ZdZYYCe.png",
+        "slots": {
+            "Slot 11": "TRANSCOM",
+            "Slot 12": "kassbohrer group",
+            "Slot 13": null,
+            "Slot 14": "Atlantica"
+        }
+    },
+    "1470630188667899944": {
+        "channel_id": 1467915231761268757,
+        "title": "EuroGoodies",
+        "color": 16734752,
+        "image": "https://i.imgur.com/jmeCvds.png",
+        "slots": {
+            "Slot 15": "Central Transport",
+            "Slot 16": null,
+            "Slot 17": null
+        }
+    },
+    "1471418148409573428": {
+        "channel_id": 1467915450527514870,
+        "title": "LKW",
+        "color": 16734752,
+        "image": "https://i.imgur.com/6KGN7ms.jpeg",
+        "slots": {
+            "Slot 1": null,
+            "Slot 2": "Aura",
+            "Slot 3": "Ethereal Transport",
+            "Slot 4": "K\u00e4ssbohrer Group",
+            "Slot 5": "Pink Ribbon VTC",
+            "Slot 6": "ETS2MCG"
+        }
+    },
+    "1471418594364751995": {
+        "channel_id": 1467915450527514870,
+        "title": "Recruitment Agency",
+        "color": 16734752,
+        "image": "https://imgur.com/nyFAmzc",
+        "slots": {
+            "Slot 7": null
+        }
+    },
+    "1471419811224359078": {
+        "channel_id": 1467915450527514870,
+        "title": "Recruitment Agency",
+        "color": 16734752,
+        "image": "https://i.imgur.com/nyFAmzc.jpeg",
+        "slots": {
+            "Slot 7": "Fast Line UA"
+        }
+    },
+    "1471420127193993338": {
+        "channel_id": 1467915450527514870,
+        "title": "ITCC",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Tmx5jTV.jpeg",
+        "slots": {
+            "Slot 8": "Ouka Logistics",
+            "Slot 9": "KERALA ROADRUNNERS",
+            "Slot 10": "ENJOYTRUCKERS",
+            "Slot 11": "Prime Logistics",
+            "Slot 12": "HG Logistics",
+            "Slot 13": "Shakti Logistics",
+            "Slot 14": "Veldoria CC"
+        }
+    },
+    "1471420449065009379": {
+        "channel_id": 1467915450527514870,
+        "title": "Service Station",
+        "color": 16734752,
+        "image": "https://i.imgur.com/LTDk4Om.jpeg",
+        "slots": {
+            "Slot 15": "Spitfire Logistics",
+            "Slot 16": "Central Transport"
+        }
+    },
+    "1471420707182350453": {
+        "channel_id": 1467915450527514870,
+        "title": "Rest Area",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Dmdqd3l.jpeg",
+        "slots": {
+            "Slot 17": "TRANSCOM",
+            "Slot 18": "FR | Industries Corporation"
+        }
+    },
+    "1471420890653659219": {
+        "channel_id": 1467915450527514870,
+        "title": "Terminal",
+        "color": 16734752,
+        "image": "https://i.imgur.com/gSQt2K0.jpeg",
+        "slots": {
+            "Slot 19": "Leaf trucking"
+        }
+    },
+    "1471753917510451262": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Rest Area (1)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Th2HPL8.jpeg",
+        "slots": {
+            "Slot 1": "INDIAN GROUP",
+            "Slot 2": "INDIAN GROUP",
+            "Slot 3": "INDIAN GROUP",
+            "Slot 4": "Aura",
+            "Slot 5": "TAMILNADU LOGISTICS"
+        }
+    },
+    "1471754189519585374": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Rest Area (2)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/DTFHJOv.jpeg",
+        "slots": {
+            "Slot 6": "TAMIL PASANGA",
+            "Slot 7": "Signature Transport",
+            "Slot 8": "Global Trucking",
+            "Slot 9": "Ethereal Transport",
+            "Slot 10": "Shakti Logistics"
+        }
+    },
+    "1471754592772427941": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - CargoTras",
+        "color": 16734752,
+        "image": "https://i.imgur.com/KzRl0a8.jpeg",
+        "slots": {
+            "Slot 11": "Transports Horizon",
+            "Slot 12": "KERALA ROADRUNNERS",
+            "Slot 13": "ENJOYTRUCKERS",
+            "Slot 14": null,
+            "Slot 15": null,
+            "Slot 16": "Reindeer Transport"
+        }
+    },
+    "1471755418555514971": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Rest Area-3(Opposite To ACC)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/UIYvDht.jpeg",
+        "slots": {
+            "Slot 17": "ITCC Logistics",
+            "Slot 18": "ITCC Logistics",
+            "Slot 19": null
+        }
+    },
+    "1471755800975511614": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - ACC",
+        "color": 16734752,
+        "image": "https://i.imgur.com/RBl9h35.jpeg",
+        "slots": {
+            "Slot 20": "Muguang Logistics",
+            "Slot 21": null,
+            "Slot 22": null,
+            "Slot 23": null,
+            "Slot 24": null,
+            "Slot 25": null,
+            "Slot 26": null
+        }
+    },
+    "1471756200856125544": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - SUBSE",
+        "color": 16734752,
+        "image": "https://i.imgur.com/S0oR8mX.jpeg",
+        "slots": {
+            "Slot 27": null,
+            "Slot 28": null,
+            "Slot 29": null,
+            "Slot 30": null,
+            "Slot 31": null
+        }
+    },
+    "1471756802885681225": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Rest Area (4)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/JMf6YCi.jpeg",
+        "slots": {
+            "Slot 32": null,
+            "Slot 33": null,
+            "Slot 34": null,
+            "Slot 35": null,
+            "Slot 36": null
+        }
+    },
+    "1471757067042816064": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Terminal",
+        "color": 16734752,
+        "image": "https://i.imgur.com/twPbi4E.jpeg",
+        "slots": {
+            "Slot 37": null
+        }
+    },
+    "1471757525870186547": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Kaarfor",
+        "color": 16734752,
+        "image": "https://i.imgur.com/80odp3B.jpeg",
+        "slots": {
+            "Slot 38": "TRANSCOM",
+            "Slot 39": null
+        }
+    },
+    "1471757790442815685": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Trameri",
+        "color": 16734752,
+        "image": "https://i.imgur.com/OFILBvv.jpeg",
+        "slots": {
+            "Slot 40": null,
+            "Slot 41": null
+        }
+    },
+    "1471758092466262109": {
+        "channel_id": 1471540388006334618,
+        "title": "TruckersMP HQ - Stokes",
+        "color": 16734752,
+        "image": "https://i.imgur.com/nArMJ5w.jpeg",
+        "slots": {
+            "Slot 42": null,
+            "Slot 43": null,
+            "Slot 44": null,
+            "Slot 45": "Leaf trucking"
+        }
+    },
+    "1471859253420757003": {
+        "channel_id": 1471539749801164894,
+        "title": "NepPath May Convoy #5",
+        "color": 16734752,
+        "image": "https://i.imgur.com/PCVtHG4.jpeg",
+        "slots": {
+            "Slot 1": "Nexus Transport",
+            "Slot 2": "Himalayan Logistics",
+            "Slot 3": null,
+            "Slot 4": null,
+            "Slot 5": null,
+            "Slot 6": null,
+            "Slot 7": null,
+            "Slot 8": null,
+            "Slot 9": null,
+            "Slot 10": null,
+            "Slot 11": null,
+            "Slot 12": null,
+            "Slot 13": null,
+            "Slot 14": null,
+            "Slot 15": null,
+            "Slot 16": null,
+            "Slot 17": null
+        }
+    },
+    "1471875615543005184": {
+        "channel_id": 1471539749801164894,
+        "title": "NepPath May Convoy #5",
+        "color": 16734752,
+        "image": "https://i.imgur.com/PTOiRbn.jpeg",
+        "slots": {
+            "Slot 1": "Nexus Transport",
+            "Slot 2": "Himalayan Logistics",
+            "Slot 3": "Th\u00fcringen Club Co.",
+            "Slot 4": "Transports Horizon",
+            "Slot 5": "TAMIL PASANGA",
+            "Slot 6": "Aura",
+            "Slot 7": null,
+            "Slot 8": "Pink Ribbon VTC",
+            "Slot 9": "TRANSCOM",
+            "Slot 10": "Spitfire Logistics",
+            "Slot 11": "Lirio Logistics",
+            "Slot 12": "Shakti Logistics",
+            "Slot 13": "NeoCrime",
+            "Slot 14": "ENJOYTRUCKERS",
+            "Slot 15": null,
+            "Slot 16": null,
+            "Slot 17": "Leaf trucking"
+        }
+    },
+    "1474713113696796722": {
+        "channel_id": 1471539900003123301,
+        "title": "# Nuremberg - RT Log",
+        "color": 16734752,
+        "image": "https://i.imgur.com/9xmgxFh.jpeg",
+        "slots": {
+            "Slot 1": null,
+            "Slot 2": null,
+            "Slot 3": null,
+            "Slot 4": null
+        }
+    },
+    "1474713473417216053": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - RT Log",
+        "color": 16734752,
+        "image": "https://i.imgur.com/9xmgxFh.jpeg",
+        "slots": {
+            "Slot 1": "Shakti Logistics",
+            "Slot 2": "INDIAN CARRIERS",
+            "Slot 3": "kassbohrer group",
+            "Slot 4": "Transports Horizon"
+        }
+    },
+    "1474714128718368850": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - Deutsche Frachth\u00e4fen (DFH)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/k7Vz4VF.jpeg",
+        "slots": {
+            "Slot 5": "ETS2MCG",
+            "Slot 6": "KERALA LOGISTICS",
+            "Slot 7": "Lirio Logistics",
+            "Slot 8": "Kerala Roadrunners",
+            "Slot 9": "Aura",
+            "Slot 10": "INDIAN GROUP"
+        }
+    },
+    "1474714459909001409": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - LKW",
+        "color": 16734752,
+        "image": "https://i.imgur.com/rj7qF8w.jpeg",
+        "slots": {
+            "Slot 11": "Reindeer Transport",
+            "Slot 12": "Ethereal Transport",
+            "Slot 13": "TRANSCOM"
+        }
+    },
+    "1474715055814738000": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - Sell Plan",
+        "color": 16734752,
+        "image": "https://i.imgur.com/x2axCHn.jpeg",
+        "slots": {
+            "Slot 14": "ENJOYTRUCKERS",
+            "Slot 15": null,
+            "Slot 16": "Muguang Logistics",
+            "Slot 17": null
+        }
+    },
+    "1474715456781811822": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - AI Automotive",
+        "color": 16734752,
+        "image": "https://i.imgur.com/ur9tSd3.jpeg",
+        "slots": {
+            "Slot 18": null,
+            "Slot 19": null
+        }
+    },
+    "1474715905165361208": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - Kathode",
+        "color": 16734752,
+        "image": "https://i.imgur.com/9XpvBmm.jpeg",
+        "slots": {
+            "Slot 20": "Prime Logistics",
+            "Slot 21": "A&D Logistic",
+            "Slot 22": null
+        }
+    },
+    "1474716266689466480": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - Sanbuilders",
+        "color": 16734752,
+        "image": "https://i.imgur.com/QibUWqO.jpeg",
+        "slots": {
+            "Slot 23": "Central Transport"
+        }
+    },
+    "1474716727957786645": {
+        "channel_id": 1471539900003123301,
+        "title": "Nuremberg - TREE-ET",
+        "color": 16734752,
+        "image": "https://i.imgur.com/QAHm8Rc.jpeg",
+        "slots": {
+            "Slot 24": null,
+            "Slot 25": null,
+            "Slot 26": null,
+            "Slot 27": null,
+            "Slot 28": "Leaf  trucking"
+        }
+    },
+    "1475132153921536030": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Rest Area (1)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Th2HPL8.jpeg",
+        "slots": {
+            "Slot 1": null,
+            "Slot 2": null,
+            "Slot 3": null,
+            "Slot 4": null
+        }
+    },
+    "1475132439977525419": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Rest Area (2)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/DTFHJOv.jpeg",
+        "slots": {
+            "Slot 5": null,
+            "Slot 6": null,
+            "Slot 7": null,
+            "Slot 8": null
+        }
+    },
+    "1475132752675471545": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - CargoTras",
+        "color": 16734752,
+        "image": "https://i.imgur.com/KzRl0a8.jpeg",
+        "slots": {
+            "Slot 9": null,
+            "Slot 10": null,
+            "Slot 11": null,
+            "Slot 12": null,
+            "Slot 13": null
+        }
+    },
+    "1475132999484964917": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Rest Area-3(Opposite To ACC)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/UIYvDht.jpeg",
+        "slots": {
+            "Slot 14": null,
+            "Slot 15": null,
+            "Slot 16": null
+        }
+    },
+    "1475133455435305053": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - ACC",
+        "color": 16734752,
+        "image": "https://i.imgur.com/RBl9h35.jpeg",
+        "slots": {
+            "Slot 17": null,
+            "Slot 18": null,
+            "Slot 19": null,
+            "Slot 20": null,
+            "Slot 21": null
+        }
+    },
+    "1475133764408447017": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - SUBSE",
+        "color": 16734752,
+        "image": "https://i.imgur.com/S0oR8mX.jpeg",
+        "slots": {
+            "Slot 22": null,
+            "Slot 23": null,
+            "Slot 24": null,
+            "Slot 25": null,
+            "Slot 26": null
+        }
+    },
+    "1475134112489672775": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Rest Area (4)",
+        "color": 16734752,
+        "image": "https://i.imgur.com/JMf6YCi.jpeg",
+        "slots": {
+            "Slot 27": null,
+            "Slot 28": null,
+            "Slot 29": null,
+            "Slot 30": null,
+            "Slot 31": null
+        }
+    },
+    "1475134381822578879": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Terminal",
+        "color": 16734752,
+        "image": "https://i.imgur.com/twPbi4E.jpeg",
+        "slots": {
+            "Slot 32": null
+        }
+    },
+    "1475134769921790126": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Kaarfor",
+        "color": 16734752,
+        "image": "https://i.imgur.com/80odp3B.jpeg",
+        "slots": {
+            "Slot 33": null,
+            "Slot 34": null
+        }
+    },
+    "1475135140106866879": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Trameri",
+        "color": 16734752,
+        "image": "https://i.imgur.com/OFILBvv.jpeg",
+        "slots": {
+            "Slot 35": null,
+            "Slot 36": null
+        }
+    },
+    "1475135443283738705": {
+        "channel_id": 1475130760913616907,
+        "title": "TruckersMP HQ - Stokes",
+        "color": 16734752,
+        "image": "https://i.imgur.com/nArMJ5w.jpeg",
+        "slots": {
+            "Slot 37": null,
+            "Slot 38": null,
+            "Slot 39": null,
+            "Slot 40": null
+        }
+    },
+    "1475158436386963477": {
+        "channel_id": 1475130046707400814,
+        "title": "NepPath October Convoy #10",
+        "color": 16734752,
+        "image": "https://i.imgur.com/4dG42Um.jpeg",
+        "slots": {
+            "Slot 1": "Partners",
+            "Slot 2": "Partners",
+            "Slot 3": null,
+            "Slot 4": null,
+            "Slot 5": null,
+            "Slot 6": null,
+            "Slot 7": null,
+            "Slot 8": null,
+            "Slot 9": null,
+            "Slot 10": null,
+            "Slot 11": null,
+            "Slot 12": null,
+            "Slot 13": null,
+            "Slot 14": null,
+            "Slot 15": null,
+            "Slot 16": null,
+            "Slot 17": null
+        }
+    },
+    "1476099075999797289": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - Transinet",
+        "color": 16734752,
+        "image": "https://i.imgur.com/78BWVmo.jpeg",
+        "slots": {
+            "Slot 1": "INDIAN CARRIERS",
+            "Slot 2": "Ethereal Transport",
+            "Slot 3": "kassbohrer group",
+            "Slot 4": "ENJOYTRUCKERS"
+        }
+    },
+    "1476099352786108618": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - SanBuilders",
+        "color": 16734752,
+        "image": "https://i.imgur.com/RHu2M3g.jpeg",
+        "slots": {
+            "Slot 5": "Prime Logistics"
+        }
+    },
+    "1476099995903070300": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - Domdepo",
+        "color": 16734752,
+        "image": "https://i.imgur.com/LZDLV9p.jpeg",
+        "slots": {
+            "Slot 6": "Transports Horizon",
+            "Slot 7": "Pink Ribbon VTC"
+        }
+    },
+    "1476100505179652290": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - Trameri",
+        "color": 16734752,
+        "image": "https://i.imgur.com/0UAvAEv.jpeg",
+        "slots": {
+            "Slot 8": null,
+            "Slot 9": null,
+            "Slot 10": null
+        }
+    },
+    "1476100903294472287": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - NS-Oil",
+        "color": 16734752,
+        "image": "https://i.imgur.com/nLi8Yfg.jpeg",
+        "slots": {
+            "Slot 11": null,
+            "Slot 12": null,
+            "Slot 13": null,
+            "Slot 14": null,
+            "Slot 15": null
+        }
+    },
+    "1476101362411507889": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - WGCC",
+        "color": 16734752,
+        "image": "https://i.imgur.com/YGjS3yx.jpeg",
+        "slots": {
+            "Slot 16": null,
+            "Slot 17": null
+        }
+    },
+    "1476102035610013767": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main -  FLE",
+        "color": 16734752,
+        "image": "https://i.imgur.com/HAgVAQB.jpeg",
+        "slots": {
+            "Slot 18": null,
+            "Slot 19": null,
+            "Slot 20": null,
+            "Slot 21": null
+        }
+    },
+    "1476102758204706907": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - LKW",
+        "color": 16734752,
+        "image": "https://i.imgur.com/0UAvAEv.jpeg",
+        "slots": {
+            "Slot 8": "KERALA ROADRUNNERS",
+            "Slot 9": null,
+            "Slot 10": null
+        }
+    },
+    "1476103065663832104": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - NS-Oil",
+        "color": 16734752,
+        "image": "https://i.imgur.com/nLi8Yfg.jpeg",
+        "slots": {
+            "Slot 11": "Shakti Logistics",
+            "Slot 12": null,
+            "Slot 13": "TRANSCOM",
+            "Slot 14": null,
+            "Slot 15": null
+        }
+    },
+    "1476103422921932851": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main - WGCC",
+        "color": 16734752,
+        "image": "https://i.imgur.com/YGjS3yx.jpeg",
+        "slots": {
+            "Slot 16": "Lirio Logistics",
+            "Slot 17": null
+        }
+    },
+    "1476103609597952010": {
+        "channel_id": 1471540059990655027,
+        "title": "Frankfurt am Main -  FLE",
+        "color": 16734752,
+        "image": "https://i.imgur.com/HAgVAQB.jpeg",
+        "slots": {
+            "Slot 18": null,
+            "Slot 19": null,
+            "Slot 20": null,
+            "Slot 21": "Leaf trucking"
+        }
+    },
+    "1477671831241621585": {
+        "channel_id": 1475129902276546665,
+        "title": "Rotterdam - WGCC",
+        "color": 16734752,
+        "image": "https://i.imgur.com/79Zbd20.jpeg",
+        "slots": {
+            "Slot 1": "INDIAN CARRIERS",
+            "Slot 2": "Pink Ribbon VTC",
+            "Slot 3": "Shakti Logistics",
+            "Slot 4": null,
+            "Slot 5": "Signature Transport"
+        }
+    },
+    "1477672190517444660": {
+        "channel_id": 1475129902276546665,
+        "title": "Rotterdam - Transinet",
+        "color": 16734752,
+        "image": "https://i.imgur.com/SAejhGZ.jpeg",
+        "slots": {
+            "Slot 6": "INDIAN GROUP",
+            "Slot 7": "INDIAN GROUP",
+            "Slot 8": "Global Trucking"
+        }
+    },
+    "1477672521410285771": {
+        "channel_id": 1475129902276546665,
+        "title": "Rotterdam - Posped",
+        "color": 16734752,
+        "image": "https://i.imgur.com/J55AXqh.jpeg",
+        "slots": {
+            "Slot 9": "kassbohrer group",
+            "Slot 10": "Ouka Logistics",
+            "Slot 11": "Royal Swag",
+            "Slot 12": "KERALA ROADRUNNERS",
+            "Slot 13": "TAMIL PASANGA"
+        }
+    },
+    "1477673144264167597": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - Kaarfor",
+        "color": 16734752,
+        "image": "https://i.imgur.com/6dTen9c.jpeg",
+        "slots": {
+            "Slot 14": "Leaf trucking",
+            "Slot 15": "Pean Logistics"
+        }
+    },
+    "1477673571328327704": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - Stokes",
+        "color": 16734752,
+        "image": "https://i.imgur.com/vUgBlrf.jpeg",
+        "slots": {
+            "Slot 16": "Fast Line UA",
+            "Slot 17": "TAMILNADU LOGISTICS",
+            "Slot 18": "Central Transport"
+        }
+    },
+    "1477674123172904960": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam -",
+        "color": 16734752,
+        "image": "https://i.imgur.com/unnUWwK.jpeg",
+        "slots": {
+            "Slot 19": null,
+            "Slot 20": null,
+            "Slot 21": null,
+            "Slot 22": null
+        }
+    },
+    "1477674410994569368": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - LKW",
+        "color": 16734752,
+        "image": "https://i.imgur.com/unnUWwK.jpeg",
+        "slots": {
+            "Slot 19": "REINDEER TRANSPORT",
+            "Slot 20": "Aura",
+            "Slot 21": "TK \"AZIMUTH\"",
+            "Slot 22": "de Klapper Club"
+        }
+    },
+    "1477674713869455484": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - Trameri",
+        "color": 16734752,
+        "image": "https://i.imgur.com/v7zbk5t.jpeg",
+        "slots": {
+            "Slot 23": "Muguang Logistics",
+            "Slot 24": "TRANSCOM"
+        }
+    },
+    "1478751395782856829": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - Station",
+        "color": 16734752,
+        "image": "https://i.imgur.com/Xh7vRQE.jpeg",
+        "slots": {
+            "Slot 25": "Ethereal Transport",
+            "Slot 26": "Prime Logistics"
+        }
+    },
+    "1479000199807504445": {
+        "channel_id": 1475130046707400814,
+        "title": "NepPath October Convoy #10",
+        "color": 16734752,
+        "image": "https://i.imgur.com/gBGhxdV.jpeg",
+        "slots": {
+            "Slot 1": "Partners",
+            "Slot 2": "Partners",
+            "Slot 3": null,
+            "Slot 4": null,
+            "Slot 5": null,
+            "Slot 6": null,
+            "Slot 7": null,
+            "Slot 8": null,
+            "Slot 9": null,
+            "Slot 10": null,
+            "Slot 11": null,
+            "Slot 12": null,
+            "Slot 13": null,
+            "Slot 14": null,
+            "Slot 15": null,
+            "Slot 16": null,
+            "Slot 17": null,
+            "Slot 18": null
+        }
+    },
+    "1479000596601110610": {
+        "channel_id": 1475130046707400814,
+        "title": "Reims - EuroGoodies",
+        "color": 16734752,
+        "image": "https://i.imgur.com/ZfNs97w.jpeg",
+        "slots": {
+            "Slot 19": null,
+            "Slot 20": null,
+            "Slot 21": null,
+            "Slot 22": null
+        }
+    },
+    "1479000856681513053": {
+        "channel_id": 1475130046707400814,
+        "title": "Reims - kaarfor",
+        "color": 16734752,
+        "image": "https://i.imgur.com/7Xr4VXl.jpeg",
+        "slots": {
+            "Slot 23": null,
+            "Slot 24": null
+        }
+    },
+    "1479001111955505162": {
+        "channel_id": 1475130046707400814,
+        "title": "Reims - Rest Area",
+        "color": 16734752,
+        "image": "https://i.imgur.com/EAlTder.jpeg",
+        "slots": {
+            "Slot 25": null
+        }
+    },
+    "1481579758402797618": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - Hotel",
+        "color": 16734752,
+        "image": "https://i.imgur.com/a5VLHJc.jpeg",
+        "slots": {
+            "Slot 27": "Lirio Logistics",
+            "Slot 28": "ENJOYTRUCKERS"
+        }
+    },
+    "1483328307620745369": {
+        "channel_id": 1475129902276546665,
+        "title": "Amsterdam - Service Station",
+        "color": 16734752,
+        "image": "https://i.imgur.com/VTHEw8B.jpeg",
+        "slots": {
+            "Slot 29": "Hort Trans UA",
+            "Slot 30": null
+        }
+    },
+    "1500157163601924188": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Port",
+        "color": 16734752,
+        "image": "https://i.imgur.com/n301Awq.jpeg",
+        "slots": {
+            "Slot 1": "Transports Horizon",
+            "Slot 2": "Tamil Pasanga VTC"
+        }
+    },
+    "1500157556524322837": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Rest Area",
+        "color": 16734752,
+        "image": "https://i.imgur.com/ou9Zn4q.jpeg",
+        "slots": {
+            "Slot 3": "Ouka Logistics",
+            "Slot 4": "Pink Ribbon VTC",
+            "Slot 5": "INDIAN CARRIERS"
+        }
+    },
+    "1500157849622282531": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - EuroGoodies",
+        "color": 16734752,
+        "image": "https://i.imgur.com/yMVAVS1.jpeg",
+        "slots": {
+            "Slot 6": "Aura",
+            "Slot 7": "INDIAN GROUP"
+        }
+    },
+    "1500158289630068839": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Recruitment Agency",
+        "color": 16734752,
+        "image": "https://i.imgur.com/oistAIF.jpeg",
+        "slots": {
+            "Slot 8": "TAMILNADU LOGISTICS"
+        }
+    },
+    "1500158479820783760": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Hotel",
+        "color": 16734752,
+        "image": "https://i.imgur.com/zjnJQNp.jpeg",
+        "slots": {
+            "Slot 9": "TRANSCOM",
+            "Slot 10": "Indian Truckers [ITVTC]"
+        }
+    },
+    "1500158839847125132": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Service Area",
+        "color": 16734752,
+        "image": "https://i.imgur.com/lfmeO4I.jpeg",
+        "slots": {
+            "Slot 11": "NeoCrime",
+            "Slot 12": "TK \"AZIMUTH\"",
+            "Slot 13": "Ethereal Transport"
+        }
+    },
+    "1500159126842638577": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Stokes",
+        "color": 16734752,
+        "image": "https://i.imgur.com/p7EqFfz.jpeg",
+        "slots": {
+            "Slot 14": "Muguang Logistics",
+            "Slot 15": "Signature Transport",
+            "Slot 16": "Signature Transport"
+        }
+    },
+    "1500159421785964569": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Trameri",
+        "color": 16734752,
+        "image": "https://i.imgur.com/LyOWOPE.jpeg",
+        "slots": {
+            "Slot 17": "Spitfire Logistics",
+            "Slot 18": "Shakti Logistics"
+        }
+    },
+    "1500159666242457671": {
         "channel_id": 1475130144556318760,
         "title": "Plymouth - EuroAcres",
         "color": 16734752,
@@ -23,5 +1018,26 @@
             "Slot 21": null,
             "Slot 22": null
         }
-    }
+    },
+    "1500160086838874244": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - Truck Dealers",
+        "color": 16734752,
+        "image": "https://i.imgur.com/msICoH5.jpeg",
+        "slots": {
+            "Slot 23": "Central Transport"
+        }
+    },
+     "1475130144556318760": {
+        "channel_id": 1475130144556318760,
+        "title": "Plymouth - EuroAcres",
+        "color": 16734752,
+        "image": "https://i.imgur.com/B7Qvvil.jpeg",
+        "slots": {
+            "Slot 19": "KERALA ROADRUNNERS",
+            "Slot 20": "HG Logistics",
+            "Slot 21": null,
+            "Slot 22": null
+        }
+    }     
 }
