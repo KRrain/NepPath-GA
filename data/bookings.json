@@ -1,29 +1,15 @@
-[
-    {
-    "1460288333644304630": {
-        "channel_id": 1454147490797453402,
-        "title": "\ud83d\udc41\ufe0f  STEIN BRUCH",
+{
+    "1520976103802409052": {
+        "channel_id": 1395811739274317976,
+        "title": "asdasdasd",
         "color": 16734752,
-        "image": "https://i.imgur.com/PCVtHG4.jpeg",
+        "image": "",
         "slots": {
-            "Slot 1": "Nexus Transport [ PARTNER ]",
-            "Slot 2": "Himalayan Logistic [ Partner ]**",
-            "Slot 3": "TAMILNADU LOGISTICS",
-            "Slot 4": "TAMILNADU LOGISTICS",
-            "Slot 5": "Aura",
-            "Slot 6": "Thurigen Club co",
-            "Slot 7": "Legacy Transport",
-            "Slot 8": null,
-            "Slot 9": null,
-            "Slot 10": null,
-            "Slot 11": "INDIAN CARRIERS",
-            "Slot 12": "KOREA CULE",
-            "Slot 13": null,
-            "Slot 14": null,
-            "Slot 15": null,
-            "Slot 16": null,
-            "Slot 17": null
-      }
+            "Slot 1": null,
+            "Slot 2": null,
+            "Slot 3": null,
+            "Slot 4": null,
+            "Slot 5": null
+        }
     }
-  }
-]
+}

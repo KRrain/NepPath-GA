@@ -33,7 +33,8 @@ COLOR_OPTIONS = {
 # ---------- Persistent Storage ----------
 try:
     with open(JSON_FILE, "r") as f:
-        booking_messages = json.load(f)
+        loaded = json.load(f)
+        booking_messages = loaded if isinstance(loaded, dict) else {}
 except Exception:
     booking_messages = {}
 
